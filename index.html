@@ -6,16 +6,23 @@
   <link rel="icon" type="image/svg+xml" href="/advait/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+<script>
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual'; // disable auto scroll restore
+  }
+  window.scrollTo(0, 0); // force top
+</script>
 
-  <script type="module" crossorigin src="/advait/assets/main-Ct5lY-cS.js"></script>
-  <link rel="stylesheet" crossorigin href="/advait/assets/main-DK6NIIlT.css">
+
+  <script type="module" crossorigin src="/advait/assets/main-Cp8ZmFjI.js"></script>
+  <link rel="stylesheet" crossorigin href="/advait/assets/main-DeXtt6ls.css">
 </head>
 
 <body class="pt-12 sm:pt-12">
   <div class="cont">
     <!------------------NAV BAR STARTED-->
     <div
-      class="nav fixed top-0 left-0 w-full bg-white flex border py-3 sm justify-between items-center xl:px-4 border border-black">
+      class=" nav animate-fadeIn translatey(20px) delay-1000ms fixed top-0 left-0 w-full bg-white flex py-3 sm justify-between items-center xl:px-4">
       <div class="flex items-center">
         <img class="hidden md:block h-8 w-8 ml-4" src="/advait/assets/pra-icon.png" alt="" />
       <a href="hamer.html">
@@ -57,7 +64,7 @@
     </div>
     <!--------------------------NAV BAAR END -->
     <!------------------SECTION 1 STARTED-->
-    <section class="sec1">
+    <section class="sec1 animate-fadeIn delay-6000ms translatey(20px)">
       <div class="flex gap-2">
         <div class="mobile block sm:hidden">
           <img class="imgSlider" src="/advait/assets/slider1.jpg" alt="" />
@@ -120,7 +127,7 @@
       </div>
     </section>
     <!-------------------SECTION 1 END-->
-    <footer class="text-white md:pl-5 bg-[#171717]">
+    <footer class="text-white md:pl-5 bg-[#171717] animate-fadeIn delay-9000ms ">
       <!----------footer sec1 start-->
       <div class="grid lg:grid-cols-3 lg:pt-24 mx-auto max-w-7xl">
         <!-- sec1 -->
